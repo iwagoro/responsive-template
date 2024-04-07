@@ -7,7 +7,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const baseStyle = "w-screen h-screen flex justify-center bg-background";
+const baseStyle = "w-screen h-screen flex justify-center bg-background overflow-hidden";
 const responsiveStyle = "max-w-2xl w-ful h-full flex flex-col items-center justify-start my-[50px]  px-5";
 
 export const metadata: Metadata = {
